@@ -84,7 +84,7 @@
           <div class="custom-radio">
             <span></span>
           </div>
-          <span>Modelo 1</span>
+          <span>Modelo 2</span>
         </label>
         Prévia:
         <div class="modelo modelo2 ff-roboto-mono">
@@ -106,7 +106,7 @@
           <div class="custom-radio">
             <span></span>
           </div>
-          <span>Modelo 1</span>
+          <span>Modelo 3</span>
         </label>
         Prévia:
         <div class="modelo modelo3 ff-roboto-mono">
@@ -117,16 +117,16 @@
           </p>
         </div>
       </div>
-      <div class="acoes">
-        <button
-          (click)="criarPensamento()"
-          [disabled]="!formulario.valid"
-          [ngClass]="habilitarBotao()"
-        >
-          Salvar
-        </button>
-        <button (click)="cancelar()" class="botao">Cancelar</button>
-      </div>
+    </div>
+    <div class="acoes">
+      <button
+        (click)="criarPensamento()"
+        [disabled]="!formulario.valid"
+        [ngClass]="habilitarBotao()"
+      >
+        Salvar
+      </button>
+      <button (click)="cancelar()" class="botao">Cancelar</button>
     </div>
   </form>
 </section>
